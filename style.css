@@ -89,6 +89,9 @@ hr {
   background-color: var(--off-white-grey);
   padding-bottom: 1rem;
 }
+.section p{
+  padding-bottom: 0.5rem;
+}
 section {
   padding-bottom: 1rem;
   text-align: center;
