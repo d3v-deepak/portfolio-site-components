@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>blogAngular | deepaknath</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navigation container">
+      <div class="nav-brand">/> /\/</div>
+      <ul class="inline-bullet non-bullet">
+        <li>
+          <a href="/" class="links">home</a>
+        </li>
+        <li>
+          <a href="projects.html" class="links">projects</a>
+        </li>
+        <li>
+          <a href="blogs.html " class="links link-active">blogs</a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="hero">
+      <h1 class="hero-heading">Dom Scripting</h1>
+    </header>
+
+    <section class="section">
+      <div class="container-center container">
+        <p>
+          Each and every element we see on the website is at its core is an
+          object containing a key and value pair just like a javascript
+          object.Every html page is considered as a document and when we combine
+          these two things we get a document where every element is comverted to
+          a object by browser which has key and values.This is called as
+          Document Object Modelling or DOM
+        </p>
+        <p>
+          Liking all posts on website, acccepting all friend request at once
+          ,filling all the texbox with text and click a button without actually
+          clicking it by just calling click() method in javaScript ,do testing
+          and much more by just writing few lines in browser console. DOM
+          unlocks a bunch of superpowers for developers
+        </p>
+        <h3>How do we get it done</h3>
+        <p>
+          Here i would like to tell how do i use this superpower in reallife.
+          Currently i am stucked in service desk job...yeah the Ticket job where
+          we have to provide resolution to the tickets. At any moment there are
+          few tickets which has the same resolution and its a
+          <b>teddiouuss..!!</b> Job to do to fill out all textbox with many
+          <sup> cntr+c </sup> and <sub>cntrl+v</sub> two three clicks and then
+          reolve. With dom scripting i write folllowing commands in the browser
+          console and my job is done
+        </p>
+        <p class="code-box" style="border: 2px solid yellow">
+          document.getElementByID("inc_cause").value="Alert"
+          document.getElementByID("inc_symptom")<br />.value=document.getElementByID("inc_desc_symptom").value
+          document.getElementByID("resolveBtn").click()
+        </p>
+
+        <p>
+          And Boom..!!💥💥 Ticket Resolved So Thats it..!! IF you read all this
+          thank you for being patient with my sentence building errors .. i
+          really appreciate you time .. until next time take care 💗
+        </p>
+      </div>
+    </section>
+
+    <br />
+
+    <footer class="footer">
+      <div class="footer-header">Connect with me!!</div>
+      <ul class="non-bullet inline-bullet">
+        <li>
+          <a href="https://github.com/d3v-deepak" target="_blank" class="links">
+            gihub</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/deepak-nath/"
+            class="links"
+            target="_blank"
+          >
+            linkedin
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
